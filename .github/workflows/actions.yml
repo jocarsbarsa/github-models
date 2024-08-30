@@ -11,7 +11,7 @@ jobs:
       issues: write
     steps:
 
-      - name: Send to AI Service
+      - name: Send to AI Service 
         id: ai_response
         run: |
           RESPONSE=$(curl -s -X POST "https://models.inference.ai.azure.com/chat/completions" \
